@@ -1,0 +1,471 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="verifyex" time="110" tests="3" failures="0" errors="0">
+   <testsuite name="verifyex" tests="3" failures="0" errors="0" time="110" timestamp="2018-11-12 16:49:07" hostname="sambhavi - sambhavi.jmandigital.in" id="Test Suites/verifyex">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\sambhavi\\Katalon Studio\\Bu\\Reports\\verifyex\\20181112_164901"/>
+         <property name="logFiles" value="C:\\Users\\sambhavi\\Katalon Studio\\Bu\\Reports\\verifyex\\20181112_164901\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="sambhavi - sambhavi.jmandigital.in"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.8.4.14"/>
+         <property name="browser" value="Chrome 70.0.3538.77"/>
+         <property name="hostAddress" value="192.168.0.185"/>
+         <property name="sessionId" value="597e5f28cc404994ac796447e0bc3ed3"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Edit" classname="Test Cases/Edit" status="PASSED">
+         <system-out><![CDATA[2018-11-12 16:49:08 - [TEST_CASE][PASSED] - Test Cases/Edit: Test Cases/Edit
+
+2018-11-12 16:49:08 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-12 16:49:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 16:49:21 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.0.28:5053/' successfully
+
+2018-11-12 16:49:25 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:5053/' successfully
+
+2018-11-12 16:49:25 - [TEST_STEP][PASSED] - setText: Text 'maddie@gmail.com' is set on object 'Object Repository/Edit_or/Page_JIN Login/input_JIN_email'
+
+2018-11-12 16:49:31 - [MESSAGE][PASSED] - Text 'maddie@gmail.com' is set on object 'Object Repository/Edit_or/Page_JIN Login/input_JIN_email'
+
+2018-11-12 16:49:31 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Edit_or/Page_JIN Login/input_Email_password'
+
+2018-11-12 16:49:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit_or/Page_JIN Login/input_Email_password'
+
+2018-11-12 16:49:32 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_JIN Login/button_LOG IN' is clicked on
+
+2018-11-12 16:49:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_JIN Login/button_LOG IN' is clicked on
+
+2018-11-12 16:49:33 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Dashboard/i_menu' is clicked on
+
+2018-11-12 16:49:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Dashboard/i_menu' is clicked on
+
+2018-11-12 16:49:40 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-12 16:49:45 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 16:49:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Dashboard/div_ac_unit BU-Settings' is clicked on
+
+2018-11-12 16:49:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Dashboard/div_ac_unit BU-Settings' is clicked on
+
+2018-11-12 16:49:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/i_add' is clicked on
+
+2018-11-12 16:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/i_add' is clicked on
+
+2018-11-12 16:49:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Business Unit Code' is clicked on
+
+2018-11-12 16:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Business Unit Code' is clicked on
+
+2018-11-12 16:49:46 - [TEST_STEP][PASSED] - setText: Text 'lll1' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_Basic Info_code'
+
+2018-11-12 16:49:46 - [MESSAGE][PASSED] - Text 'lll1' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_Basic Info_code'
+
+2018-11-12 16:49:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Business Unit Name' is clicked on
+
+2018-11-12 16:49:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Business Unit Name' is clicked on
+
+2018-11-12 16:49:46 - [TEST_STEP][PASSED] - setText: Text 'lll123' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__name'
+
+2018-11-12 16:49:47 - [MESSAGE][PASSED] - Text 'lll123' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__name'
+
+2018-11-12 16:49:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Email' is clicked on
+
+2018-11-12 16:49:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Email' is clicked on
+
+2018-11-12 16:49:47 - [TEST_STEP][PASSED] - setText: Text 'll123@gmail.com' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_BU Admin Access_buAdminM'
+
+2018-11-12 16:49:47 - [MESSAGE][PASSED] - Text 'll123@gmail.com' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_BU Admin Access_buAdminM'
+
+2018-11-12 16:49:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_First Name' is clicked on
+
+2018-11-12 16:49:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_First Name' is clicked on
+
+2018-11-12 16:49:47 - [TEST_STEP][PASSED] - setText: Text '3ll' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__buAdminFirstName'
+
+2018-11-12 16:49:48 - [MESSAGE][PASSED] - Text '3ll' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__buAdminFirstName'
+
+2018-11-12 16:49:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Last Name' is clicked on
+
+2018-11-12 16:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Last Name' is clicked on
+
+2018-11-12 16:49:48 - [TEST_STEP][PASSED] - setText: Text 'll2' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__buAdminLastName'
+
+2018-11-12 16:49:48 - [MESSAGE][PASSED] - Text 'll2' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__buAdminLastName'
+
+2018-11-12 16:49:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/span_select_caret' is clicked on
+
+2018-11-12 16:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/span_select_caret' is clicked on
+
+2018-11-12 16:49:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_Afghanistan' is clicked on
+
+2018-11-12 16:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_Afghanistan' is clicked on
+
+2018-11-12 16:49:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/button_select' is clicked on
+
+2018-11-12 16:49:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/button_select' is clicked on
+
+2018-11-12 16:49:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_Production' is clicked on
+
+2018-11-12 16:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_Production' is clicked on
+
+2018-11-12 16:49:49 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Contact Number' is clicked on
+
+2018-11-12 16:49:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Contact Number' is clicked on
+
+2018-11-12 16:49:49 - [TEST_STEP][PASSED] - setText: Text '5685' is set on object 'Object Repository/verify2/Page_Business Unit Info/input__buContact'
+
+2018-11-12 16:49:49 - [MESSAGE][PASSED] - Text '5685' is set on object 'Object Repository/verify2/Page_Business Unit Info/input__buContact'
+
+2018-11-12 16:49:49 - [TEST_STEP][PASSED] - setText: Text '12' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_Address_address'
+
+2018-11-12 16:49:49 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_Address_address'
+
+2018-11-12 16:49:49 - [TEST_STEP][PASSED] - setText: Text 'chennai' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__city'
+
+2018-11-12 16:49:49 - [MESSAGE][PASSED] - Text 'chennai' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__city'
+
+2018-11-12 16:49:49 - [TEST_STEP][PASSED] - setText: Text 'tamil' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__state'
+
+2018-11-12 16:49:50 - [MESSAGE][PASSED] - Text 'tamil' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__state'
+
+2018-11-12 16:49:50 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Zip Code' is clicked on
+
+2018-11-12 16:49:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Zip Code' is clicked on
+
+2018-11-12 16:49:50 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__zipcode'
+
+2018-11-12 16:49:50 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__zipcode'
+
+2018-11-12 16:49:50 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-12 16:49:55 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 16:49:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_save' is clicked on
+
+2018-11-12 16:49:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_save' is clicked on
+
+2018-11-12 16:49:55 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Connected Apps' is present on page 
+
+2018-11-12 16:49:55 - [MESSAGE][PASSED] - Text 'Connected Apps' is present on page 
+
+2018-11-12 16:49:55 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/verify2/Page_Business Unit Info/label_Search BU Name BU Code' is clicked on
+
+2018-11-12 16:49:57 - [MESSAGE][PASSED] - Object: 'Object Repository/verify2/Page_Business Unit Info/label_Search BU Name BU Code' is clicked on
+
+2018-11-12 16:49:57 - [TEST_STEP][PASSED] - setText: Text 'lll1' is set on object 'Object Repository/verify2/Page_Business Unit Info/input_search_search'
+
+2018-11-12 16:49:57 - [MESSAGE][PASSED] - Text 'lll1' is set on object 'Object Repository/verify2/Page_Business Unit Info/input_search_search'
+
+2018-11-12 16:49:57 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'lll1' is present on page 
+
+2018-11-12 16:49:58 - [MESSAGE][PASSED] - Text 'lll1' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit" classname="Test Cases/Edit" status="PASSED">
+         <system-out><![CDATA[2018-11-12 16:49:58 - [TEST_CASE][PASSED] - Test Cases/Edit: Test Cases/Edit
+
+2018-11-12 16:49:58 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-12 16:49:58 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-12 16:50:03 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 16:50:03 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.0.28:5053/' successfully
+
+2018-11-12 16:50:06 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:5053/' successfully
+
+2018-11-12 16:50:06 - [TEST_STEP][PASSED] - setText: Text 'maddie@gmail.com' is set on object 'Object Repository/Edit_or/Page_JIN Login/input_JIN_email'
+
+2018-11-12 16:50:08 - [MESSAGE][PASSED] - Text 'maddie@gmail.com' is set on object 'Object Repository/Edit_or/Page_JIN Login/input_JIN_email'
+
+2018-11-12 16:50:08 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Edit_or/Page_JIN Login/input_Email_password'
+
+2018-11-12 16:50:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit_or/Page_JIN Login/input_Email_password'
+
+2018-11-12 16:50:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_JIN Login/button_LOG IN' is clicked on
+
+2018-11-12 16:50:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_JIN Login/button_LOG IN' is clicked on
+
+2018-11-12 16:50:08 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Dashboard/i_menu' is clicked on
+
+2018-11-12 16:50:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Dashboard/i_menu' is clicked on
+
+2018-11-12 16:50:09 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-12 16:50:14 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 16:50:14 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Dashboard/div_ac_unit BU-Settings' is clicked on
+
+2018-11-12 16:50:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Dashboard/div_ac_unit BU-Settings' is clicked on
+
+2018-11-12 16:50:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/i_add' is clicked on
+
+2018-11-12 16:50:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/i_add' is clicked on
+
+2018-11-12 16:50:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Business Unit Code' is clicked on
+
+2018-11-12 16:50:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Business Unit Code' is clicked on
+
+2018-11-12 16:50:15 - [TEST_STEP][PASSED] - setText: Text 'hhh' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_Basic Info_code'
+
+2018-11-12 16:50:15 - [MESSAGE][PASSED] - Text 'hhh' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_Basic Info_code'
+
+2018-11-12 16:50:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Business Unit Name' is clicked on
+
+2018-11-12 16:50:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Business Unit Name' is clicked on
+
+2018-11-12 16:50:16 - [TEST_STEP][PASSED] - setText: Text 'hhh12' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__name'
+
+2018-11-12 16:50:16 - [MESSAGE][PASSED] - Text 'hhh12' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__name'
+
+2018-11-12 16:50:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Email' is clicked on
+
+2018-11-12 16:50:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Email' is clicked on
+
+2018-11-12 16:50:16 - [TEST_STEP][PASSED] - setText: Text 'hh@gmail.com' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_BU Admin Access_buAdminM'
+
+2018-11-12 16:50:16 - [MESSAGE][PASSED] - Text 'hh@gmail.com' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_BU Admin Access_buAdminM'
+
+2018-11-12 16:50:16 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_First Name' is clicked on
+
+2018-11-12 16:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_First Name' is clicked on
+
+2018-11-12 16:50:17 - [TEST_STEP][PASSED] - setText: Text 'hh1' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__buAdminFirstName'
+
+2018-11-12 16:50:17 - [MESSAGE][PASSED] - Text 'hh1' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__buAdminFirstName'
+
+2018-11-12 16:50:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Last Name' is clicked on
+
+2018-11-12 16:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Last Name' is clicked on
+
+2018-11-12 16:50:17 - [TEST_STEP][PASSED] - setText: Text 'hh2' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__buAdminLastName'
+
+2018-11-12 16:50:17 - [MESSAGE][PASSED] - Text 'hh2' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__buAdminLastName'
+
+2018-11-12 16:50:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/span_select_caret' is clicked on
+
+2018-11-12 16:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/span_select_caret' is clicked on
+
+2018-11-12 16:50:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_Afghanistan' is clicked on
+
+2018-11-12 16:50:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_Afghanistan' is clicked on
+
+2018-11-12 16:50:17 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/button_select' is clicked on
+
+2018-11-12 16:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/button_select' is clicked on
+
+2018-11-12 16:50:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_Production' is clicked on
+
+2018-11-12 16:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_Production' is clicked on
+
+2018-11-12 16:50:18 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Contact Number' is clicked on
+
+2018-11-12 16:50:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Contact Number' is clicked on
+
+2018-11-12 16:50:18 - [TEST_STEP][PASSED] - setText: Text '645645' is set on object 'Object Repository/verify2/Page_Business Unit Info/input__buContact'
+
+2018-11-12 16:50:18 - [MESSAGE][PASSED] - Text '645645' is set on object 'Object Repository/verify2/Page_Business Unit Info/input__buContact'
+
+2018-11-12 16:50:18 - [TEST_STEP][PASSED] - setText: Text '12' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_Address_address'
+
+2018-11-12 16:50:18 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_Address_address'
+
+2018-11-12 16:50:18 - [TEST_STEP][PASSED] - setText: Text 'chennai' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__city'
+
+2018-11-12 16:50:19 - [MESSAGE][PASSED] - Text 'chennai' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__city'
+
+2018-11-12 16:50:19 - [TEST_STEP][PASSED] - setText: Text 'tamil' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__state'
+
+2018-11-12 16:50:19 - [MESSAGE][PASSED] - Text 'tamil' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__state'
+
+2018-11-12 16:50:19 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Zip Code' is clicked on
+
+2018-11-12 16:50:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Zip Code' is clicked on
+
+2018-11-12 16:50:19 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__zipcode'
+
+2018-11-12 16:50:19 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__zipcode'
+
+2018-11-12 16:50:19 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-12 16:50:24 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 16:50:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_save' is clicked on
+
+2018-11-12 16:50:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_save' is clicked on
+
+2018-11-12 16:50:24 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Connected Apps' is present on page 
+
+2018-11-12 16:50:24 - [MESSAGE][PASSED] - Text 'Connected Apps' is present on page 
+
+2018-11-12 16:50:24 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/verify2/Page_Business Unit Info/label_Search BU Name BU Code' is clicked on
+
+2018-11-12 16:50:26 - [MESSAGE][PASSED] - Object: 'Object Repository/verify2/Page_Business Unit Info/label_Search BU Name BU Code' is clicked on
+
+2018-11-12 16:50:26 - [TEST_STEP][PASSED] - setText: Text 'hhh' is set on object 'Object Repository/verify2/Page_Business Unit Info/input_search_search'
+
+2018-11-12 16:50:26 - [MESSAGE][PASSED] - Text 'hhh' is set on object 'Object Repository/verify2/Page_Business Unit Info/input_search_search'
+
+2018-11-12 16:50:26 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'hhh' is present on page 
+
+2018-11-12 16:50:27 - [MESSAGE][PASSED] - Text 'hhh' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Edit" classname="Test Cases/Edit" status="PASSED">
+         <system-out><![CDATA[2018-11-12 16:50:27 - [TEST_CASE][PASSED] - Test Cases/Edit: Test Cases/Edit
+
+2018-11-12 16:50:27 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: ''
+
+2018-11-12 16:50:27 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2018-11-12 16:50:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2018-11-12 16:50:32 - [TEST_STEP][PASSED] - navigateToUrl: Navigate to 'http://192.168.0.28:5053/' successfully
+
+2018-11-12 16:50:36 - [MESSAGE][PASSED] - Navigate to 'http://192.168.0.28:5053/' successfully
+
+2018-11-12 16:50:36 - [TEST_STEP][PASSED] - setText: Text 'maddie@gmail.com' is set on object 'Object Repository/Edit_or/Page_JIN Login/input_JIN_email'
+
+2018-11-12 16:50:38 - [MESSAGE][PASSED] - Text 'maddie@gmail.com' is set on object 'Object Repository/Edit_or/Page_JIN Login/input_JIN_email'
+
+2018-11-12 16:50:38 - [TEST_STEP][PASSED] - setEncryptedText: Text ****** has been set on object 'Object Repository/Edit_or/Page_JIN Login/input_Email_password'
+
+2018-11-12 16:50:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Edit_or/Page_JIN Login/input_Email_password'
+
+2018-11-12 16:50:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_JIN Login/button_LOG IN' is clicked on
+
+2018-11-12 16:50:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_JIN Login/button_LOG IN' is clicked on
+
+2018-11-12 16:50:38 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Dashboard/i_menu' is clicked on
+
+2018-11-12 16:50:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Dashboard/i_menu' is clicked on
+
+2018-11-12 16:50:39 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-12 16:50:44 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 16:50:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Dashboard/div_ac_unit BU-Settings' is clicked on
+
+2018-11-12 16:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Dashboard/div_ac_unit BU-Settings' is clicked on
+
+2018-11-12 16:50:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/i_add' is clicked on
+
+2018-11-12 16:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/i_add' is clicked on
+
+2018-11-12 16:50:44 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Business Unit Code' is clicked on
+
+2018-11-12 16:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Business Unit Code' is clicked on
+
+2018-11-12 16:50:45 - [TEST_STEP][PASSED] - setText: Text 'eee' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_Basic Info_code'
+
+2018-11-12 16:50:45 - [MESSAGE][PASSED] - Text 'eee' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_Basic Info_code'
+
+2018-11-12 16:50:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Business Unit Name' is clicked on
+
+2018-11-12 16:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Business Unit Name' is clicked on
+
+2018-11-12 16:50:45 - [TEST_STEP][PASSED] - setText: Text 'eee12' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__name'
+
+2018-11-12 16:50:45 - [MESSAGE][PASSED] - Text 'eee12' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__name'
+
+2018-11-12 16:50:45 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Email' is clicked on
+
+2018-11-12 16:50:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Email' is clicked on
+
+2018-11-12 16:50:45 - [TEST_STEP][PASSED] - setText: Text 'ee@gmail.com' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_BU Admin Access_buAdminM'
+
+2018-11-12 16:50:46 - [MESSAGE][PASSED] - Text 'ee@gmail.com' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_BU Admin Access_buAdminM'
+
+2018-11-12 16:50:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_First Name' is clicked on
+
+2018-11-12 16:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_First Name' is clicked on
+
+2018-11-12 16:50:46 - [TEST_STEP][PASSED] - setText: Text 'ee1' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__buAdminFirstName'
+
+2018-11-12 16:50:46 - [MESSAGE][PASSED] - Text 'ee1' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__buAdminFirstName'
+
+2018-11-12 16:50:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Last Name' is clicked on
+
+2018-11-12 16:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Last Name' is clicked on
+
+2018-11-12 16:50:46 - [TEST_STEP][PASSED] - setText: Text 'ee2' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__buAdminLastName'
+
+2018-11-12 16:50:46 - [MESSAGE][PASSED] - Text 'ee2' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__buAdminLastName'
+
+2018-11-12 16:50:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/span_select_caret' is clicked on
+
+2018-11-12 16:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/span_select_caret' is clicked on
+
+2018-11-12 16:50:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_Afghanistan' is clicked on
+
+2018-11-12 16:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_Afghanistan' is clicked on
+
+2018-11-12 16:50:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/button_select' is clicked on
+
+2018-11-12 16:50:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/button_select' is clicked on
+
+2018-11-12 16:50:46 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_Production' is clicked on
+
+2018-11-12 16:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_Production' is clicked on
+
+2018-11-12 16:50:47 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Contact Number' is clicked on
+
+2018-11-12 16:50:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Contact Number' is clicked on
+
+2018-11-12 16:50:47 - [TEST_STEP][PASSED] - setText: Text '36346' is set on object 'Object Repository/verify2/Page_Business Unit Info/input__buContact'
+
+2018-11-12 16:50:47 - [MESSAGE][PASSED] - Text '36346' is set on object 'Object Repository/verify2/Page_Business Unit Info/input__buContact'
+
+2018-11-12 16:50:47 - [TEST_STEP][PASSED] - setText: Text '12' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_Address_address'
+
+2018-11-12 16:50:47 - [MESSAGE][PASSED] - Text '12' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input_Address_address'
+
+2018-11-12 16:50:47 - [TEST_STEP][PASSED] - setText: Text 'chennai' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__city'
+
+2018-11-12 16:50:47 - [MESSAGE][PASSED] - Text 'chennai' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__city'
+
+2018-11-12 16:50:47 - [TEST_STEP][PASSED] - setText: Text 'tamil' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__state'
+
+2018-11-12 16:50:48 - [MESSAGE][PASSED] - Text 'tamil' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__state'
+
+2018-11-12 16:50:48 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Zip Code' is clicked on
+
+2018-11-12 16:50:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/label_Zip Code' is clicked on
+
+2018-11-12 16:50:48 - [TEST_STEP][PASSED] - setText: Text '1234' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__zipcode'
+
+2018-11-12 16:50:48 - [MESSAGE][PASSED] - Text '1234' is set on object 'Object Repository/Edit_or/Page_Business Unit Info/input__zipcode'
+
+2018-11-12 16:50:48 - [TEST_STEP][PASSED] - delay: Delayed 5 second(s)
+
+2018-11-12 16:50:53 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2018-11-12 16:50:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_save' is clicked on
+
+2018-11-12 16:50:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Edit_or/Page_Business Unit Info/a_save' is clicked on
+
+2018-11-12 16:50:53 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'Connected Apps' is present on page 
+
+2018-11-12 16:50:53 - [MESSAGE][PASSED] - Text 'Connected Apps' is present on page 
+
+2018-11-12 16:50:53 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/verify2/Page_Business Unit Info/label_Search BU Name BU Code' is clicked on
+
+2018-11-12 16:50:55 - [MESSAGE][PASSED] - Object: 'Object Repository/verify2/Page_Business Unit Info/label_Search BU Name BU Code' is clicked on
+
+2018-11-12 16:50:55 - [TEST_STEP][PASSED] - setText: Text 'eee' is set on object 'Object Repository/verify2/Page_Business Unit Info/input_search_search'
+
+2018-11-12 16:50:55 - [MESSAGE][PASSED] - Text 'eee' is set on object 'Object Repository/verify2/Page_Business Unit Info/input_search_search'
+
+2018-11-12 16:50:55 - [TEST_STEP][PASSED] - verifyTextPresent: Text 'eee' is present on page 
+
+2018-11-12 16:50:56 - [MESSAGE][PASSED] - Text 'eee' is present on page]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-11-12 16:49:07 - [TEST_SUITE][PASSED] - verifyex: Test Cases/Edit]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

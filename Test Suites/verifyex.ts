@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>verifyex</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <lastRun>2018-11-12T16:49:01</lastRun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>b0f9705f-64b8-4e72-860e-a2a60681072c</testSuiteGuid>
+   <testCaseLink>
+      <guid>e05890ef-cbd6-4ede-b614-d4ebe8f46554</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Edit</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>220dab2d-70e7-4f70-9512-634cd865e7b2</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/BUU</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>220dab2d-70e7-4f70-9512-634cd865e7b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Buc</value>
+         <variableId>450630b7-be07-4dfd-b517-3ea78486a46c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>220dab2d-70e7-4f70-9512-634cd865e7b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Bun</value>
+         <variableId>4c8c010c-123d-4f39-92b6-eddb943c75cc</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>220dab2d-70e7-4f70-9512-634cd865e7b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>dd1ec43b-e9db-4aed-9581-20c573fc9770</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>220dab2d-70e7-4f70-9512-634cd865e7b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>contact</value>
+         <variableId>db3727c0-023e-4fc0-a83d-e2876421b7bf</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>220dab2d-70e7-4f70-9512-634cd865e7b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstname</value>
+         <variableId>6bef5e32-6398-4025-a488-6eb5211b6435</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>220dab2d-70e7-4f70-9512-634cd865e7b2</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastname</value>
+         <variableId>947be65b-9a63-4e7f-bfb2-560bfd030623</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>
